@@ -1,0 +1,132 @@
+/* line 1, /Users/alexanderedwards/Desktop/vr/style.scss */
+* {
+  box-sizing: border-box; }
+
+/* line 7, /Users/alexanderedwards/Desktop/vr/style.scss */
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #2B2B2B;
+  color: white;
+  font-family: 'Roboto'; }
+
+/* line 16, /Users/alexanderedwards/Desktop/vr/style.scss */
+header nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(50, 50, 50, 0.6);
+  z-index: 150; }
+  /* line 26, /Users/alexanderedwards/Desktop/vr/style.scss */
+  header nav a {
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: 'Catamaran', sans-serif;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    color: #E0E0E0;
+    font-size: 1rem;
+    padding: 0 1rem;
+    padding-top: 0.75rem;
+    height: 3rem;
+    line-height: 2rem; }
+    /* line 38, /Users/alexanderedwards/Desktop/vr/style.scss */
+    header nav a.selected {
+      border-bottom: 2px solid #C0CA33; }
+  /* line 43, /Users/alexanderedwards/Desktop/vr/style.scss */
+  header nav .book {
+    float: right;
+    line-height: 3rem;
+    padding: 0 2rem;
+    padding-top: 0.2rem;
+    background-color: #C0CA33; }
+
+/* line 54, /Users/alexanderedwards/Desktop/vr/style.scss */
+main {
+  min-height: 100%;
+  width: 100%; }
+
+/* line 60, /Users/alexanderedwards/Desktop/vr/style.scss */
+#particles-js {
+  height: 80vh;
+  width: 100%;
+  position: absolute;
+  background-color: #202020;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 0 90%); }
+
+/* line 71, /Users/alexanderedwards/Desktop/vr/style.scss */
+.top {
+  height: 80vh;
+  width: 100%;
+  position: relative;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("Logo.svg");
+  background-position: center;
+  background-size: 200%;
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 0 90%); }
+
+/* line 85, /Users/alexanderedwards/Desktop/vr/style.scss */
+.banner {
+  text-align: center;
+  margin-top: -3rem;
+  padding: 2rem; }
+  /* line 89, /Users/alexanderedwards/Desktop/vr/style.scss */
+  .banner h1, .banner h2 {
+    text-transform: uppercase;
+    margin: 0;
+    font-family: 'Orbitron', sans-serif; }
+  /* line 95, /Users/alexanderedwards/Desktop/vr/style.scss */
+  .banner h1 {
+    font-size: 3rem;
+    letter-spacing: 0.75rem; }
+
+/* line 101, /Users/alexanderedwards/Desktop/vr/style.scss */
+.content {
+  margin: auto;
+  width: 100%;
+  max-width: 900px;
+  padding: 0.5rem; }
+  /* line 107, /Users/alexanderedwards/Desktop/vr/style.scss */
+  .content section {
+    padding: 0 1rem;
+    display: inline-block;
+    width: 100%;
+    font-size: 1.2rem; }
+  /* line 116, /Users/alexanderedwards/Desktop/vr/style.scss */
+  .content .booking h1, .content .booking h2 {
+    margin: 0; }
+  /* line 120, /Users/alexanderedwards/Desktop/vr/style.scss */
+  .content .booking h1 {
+    font-size: 3rem;
+    font-weight: 800; }
+  /* line 125, /Users/alexanderedwards/Desktop/vr/style.scss */
+  .content .booking .bookingWidget {
+    min-width: 320px;
+    min-height: 600px;
+    width: 50%;
+    float: left; }
+  /* line 132, /Users/alexanderedwards/Desktop/vr/style.scss */
+  .content .booking section {
+    width: 50%;
+    float: left; }
+    /* line 135, /Users/alexanderedwards/Desktop/vr/style.scss */
+    .content .booking section h2 {
+      margin-top: 0; }
+  /* line 140, /Users/alexanderedwards/Desktop/vr/style.scss */
+  .content .booking img {
+    width: 50%;
+    float: left; }
+  @media screen and (max-width: 700px) {
+    /* line 145, /Users/alexanderedwards/Desktop/vr/style.scss */
+    .content .booking .bookingWidget, .content .booking section, .content .booking img {
+      width: 100%; } }
+
+/*# sourceMappingURL=style.css.map */
