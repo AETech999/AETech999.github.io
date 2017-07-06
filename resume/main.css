@@ -1,0 +1,121 @@
+/* line 7, /Users/alexanderedwards/Desktop/resume/main.scss */
+body, html {
+  font-family: 'Roboto';
+  background-color: #E0E0E0; }
+
+/* line 12, /Users/alexanderedwards/Desktop/resume/main.scss */
+h2 {
+  color: rgba(66, 146, 223, 0.5);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-bottom: 0;
+  column-span: all; }
+
+/* line 21, /Users/alexanderedwards/Desktop/resume/main.scss */
+h4 {
+  color: rgba(67, 67, 67, 0.5);
+  font-size: 1.25rem;
+  margin: 0; }
+
+/* line 27, /Users/alexanderedwards/Desktop/resume/main.scss */
+a {
+  color: rgba(67, 67, 67, 0.5);
+  text-decoration: none; }
+
+/* line 32, /Users/alexanderedwards/Desktop/resume/main.scss */
+.side {
+  font-size: 1.25rem; }
+  @media screen and (min-width: 1000px) {
+    /* line 32, /Users/alexanderedwards/Desktop/resume/main.scss */
+    .side {
+      width: 300px;
+      text-align: right; } }
+  /* line 40, /Users/alexanderedwards/Desktop/resume/main.scss */
+  .side h1 {
+    text-transform: uppercase;
+    font-size: 2.25rem;
+    color: #434343; }
+  /* line 45, /Users/alexanderedwards/Desktop/resume/main.scss */
+  .side span {
+    color: rgba(67, 67, 67, 0.5); }
+  /* line 48, /Users/alexanderedwards/Desktop/resume/main.scss */
+  .side img {
+    border-radius: 100%;
+    border: 2px solid #4292df; }
+  /* line 53, /Users/alexanderedwards/Desktop/resume/main.scss */
+  .side .skills span {
+    color: rgba(67, 67, 67, 0.8); }
+
+/* line 59, /Users/alexanderedwards/Desktop/resume/main.scss */
+.main {
+  font-size: 1.25rem;
+  color: rgba(67, 67, 67, 0.8); }
+  /* line 67, /Users/alexanderedwards/Desktop/resume/main.scss */
+  .main h3 {
+    font-weight: 500;
+    color: #434343;
+    font-size: 2rem;
+    margin: 0.5rem 0; }
+  /* line 75, /Users/alexanderedwards/Desktop/resume/main.scss */
+  .main ul {
+    list-style: none !important;
+    margin-top: 0; }
+    /* line 78, /Users/alexanderedwards/Desktop/resume/main.scss */
+    .main ul li {
+      position: relative;
+      margin-top: 0rem;
+      margin-bottom: 1rem; }
+      /* line 82, /Users/alexanderedwards/Desktop/resume/main.scss */
+      .main ul li:before {
+        content: "";
+        background: #95989A;
+        position: absolute;
+        width: 1px;
+        top: 5px;
+        bottom: -21px;
+        left: -25.5px; }
+      /* line 91, /Users/alexanderedwards/Desktop/resume/main.scss */
+      .main ul li:after {
+        content: "";
+        background: #E0E0E0;
+        border: 0.5px solid #95989A;
+        position: absolute;
+        width: 0.75rem;
+        height: 0.75rem;
+        border-radius: 100%;
+        top: 5px;
+        left: -32px; }
+      /* line 102, /Users/alexanderedwards/Desktop/resume/main.scss */
+      .main ul li:last-child:before {
+        content: "";
+        background: #E0E0E0; }
+  /* line 110, /Users/alexanderedwards/Desktop/resume/main.scss */
+  .main .experience span, .main .education span {
+    font-size: 1rem;
+    color: rgba(67, 67, 67, 0.5); }
+  @media screen and (min-width: 800px) {
+    /* line 116, /Users/alexanderedwards/Desktop/resume/main.scss */
+    .main .projects {
+      column-count: 2; } }
+  /* line 120, /Users/alexanderedwards/Desktop/resume/main.scss */
+  .main .projects h3 {
+    margin: 0; }
+  /* line 123, /Users/alexanderedwards/Desktop/resume/main.scss */
+  .main .projects h4 {
+    text-transform: uppercase; }
+  /* line 128, /Users/alexanderedwards/Desktop/resume/main.scss */
+  .main .projects p {
+    margin-top: 0; }
+  /* line 131, /Users/alexanderedwards/Desktop/resume/main.scss */
+  .main .projects div {
+    break-inside: avoid-column; }
+  @media screen and (min-width: 800px) {
+    /* line 137, /Users/alexanderedwards/Desktop/resume/main.scss */
+    .main .other {
+      column-count: 2; } }
+  /* line 141, /Users/alexanderedwards/Desktop/resume/main.scss */
+  .main .other div {
+    break-inside: avoid-column; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,145 @@
+$blue: rgba(66,146,223,0.5);
+$darkblue: rgba(66,146,223,1);
+$dark: rgba(67,67,67,1);
+$medium: rgba(67,67,67,0.8);
+$light: rgba(67,67,67,0.5);
+
+body, html {
+    font-family: 'Roboto';
+    background-color: #E0E0E0;
+}
+
+h2 {
+    color: $blue;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 0;
+    column-span: all;
+}
+
+h4 {
+    color: $light;
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+a {
+    color: $light;
+    text-decoration: none;
+}
+
+.side {
+    @media screen and (min-width: 1000px){
+        width: 300px;
+        text-align: right;
+    }
+
+    
+    font-size: 1.25rem;
+    h1 {
+        text-transform: uppercase;
+        font-size: 2.25rem;
+        color: $dark;
+    }
+    span {
+        color: $light;      
+    }
+    img {
+        border-radius: 100%;
+        border: 2px solid $darkblue
+    }
+    .skills {
+        span {
+            color: $medium;
+        }
+    }
+}
+
+.main {
+    @media screen and (min-width: 800px){
+
+    }
+
+    font-size: 1.25rem;
+    color: $medium;
+    
+    h3 {
+        font-weight: 500;
+        color: $dark;
+        font-size: 2rem;
+        margin: 0.5rem 0;
+    }
+    
+    
+    ul {
+        list-style: none !important;
+        margin-top: 0;
+        li {
+            position: relative;
+            margin-top: 0rem;
+            margin-bottom: 1rem;
+            &:before {
+                content: "";
+                background: #95989A;
+                position: absolute;
+                width: 1px;
+                top: 5px;
+                bottom: -21px;
+                left: -25.5px;
+            }
+            &:after {
+                content: "";
+                background: #E0E0E0;
+                border: 0.5px solid #95989A;
+                position: absolute;
+                width: 0.75rem;
+                height: 0.75rem;
+                border-radius: 100%;
+                top: 5px;
+                left: -32px;
+            }
+            &:last-child:before {
+                content: "";
+                background: #E0E0E0;
+            }
+        }
+    }
+
+    .experience, .education {
+        span {
+            font-size: 1rem;
+            color: $light;
+        }
+    }
+    
+    .projects {
+        @media screen and (min-width: 800px){
+            column-count: 2;
+        }
+        h3 {
+            margin: 0;
+        }
+        h4 {
+            text-transform: uppercase;
+        }
+        
+        
+        p {
+            margin-top: 0;
+        }
+        div {
+            break-inside: avoid-column;
+        }
+
+    }
+    
+    .other {
+        @media screen and (min-width: 800px){
+            column-count: 2;
+        }
+        div {
+            break-inside: avoid-column;
+        }
+    }
+}
