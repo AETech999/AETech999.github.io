@@ -1,4 +1,4 @@
-$blue: rgba(66,146,223,0.5);
+$blue: rgba(66,146,223,0.5); //#91B9E0
 $dark: rgba(67,67,67,1);
 $medium: rgba(67,67,67,0.8);
 $light: rgba(67,67,67,0.5);
@@ -54,8 +54,16 @@ a {
 
 
 .side {
+    
+    img {
+        transform: scaleX(-1);
+        max-width: 400px;
+    }
+    
+    
     padding: 0.5*$lu;
     @media screen and (min-width: 1200px){
+        direction: rtl;
         width: 20%;
         text-align: right;
         float: left;
